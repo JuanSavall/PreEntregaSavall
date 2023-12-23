@@ -1,8 +1,9 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import React from "react";
 
-function app () {
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import NavBar from "./components/NavBar/NavBar";
+
+export default function app () {
     return(
         <>
             <NavBar />   
@@ -11,5 +12,3 @@ function app () {
     )
 }
 
-
-export default App

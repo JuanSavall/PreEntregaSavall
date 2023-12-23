@@ -3,7 +3,8 @@ import cart from `./assets/png-transparent-computer-icons-shopping-cart-encapsul
 const CartWidget = () => {
     return (
         <div>
-            <img src={cart} alt="cart-wdiget" />
+            <img src="./assets/png-transparent-computer-icons-shopping-cart-encapsulated-postscript-shopping-cart-angle-black-shopping.png" 
+            alt="cart-wdiget" />
             0
         </div>
     )
